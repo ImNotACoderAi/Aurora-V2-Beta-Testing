@@ -149,18 +149,16 @@ callback = <function> - The function to execute when the key is pressed.
 
 ## Notifying the user
 ```lua
-local Bind = Tab:Bind({
-    title = "Bind",
-    bind = "E",
-    key = Enum.KeyCode.E,
-    hold = false,
-    callback = function() print("Pressed") end
+Aurora:Notify({
+    title = "Notification",
+    desc = "Description",
+    ntype = "notif",
+    callback = function() print("Done") end
 })
 --[[
-title = <string> - The title displayed on the key bind.
-bind = <string> - The default key to bind.
-key = <Enum.KeyCode> - The key code to bind.
-hold = <bool> - Whether the key needs to be held down to trigger the callback.
-callback = <function> - The function to execute when the key is pressed.
+title = <string> - The title displayed on the notification.
+desc = <string> - The description.
+ntype = <string> - The type of notification - "notif" or "warning".
+callback = <function> - The function to execute when the notification is done.
 ]]
 ```
