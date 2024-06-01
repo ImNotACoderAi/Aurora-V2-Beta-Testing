@@ -1,7 +1,7 @@
-Tevfn - 20% of work
+su06042_80711 - Beta tester
 
-Zephy - 80% of work
+Zephy - 100% of work
 
 # Aurora Version 2
 
--- docs soon
+## Creating a window
