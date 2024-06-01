@@ -4,13 +4,18 @@ Zephy | @helloworld26445 - 100% of work
 
 https://discord.gg/8teQdSBGMb <--- Join for more updates
 
-# Aurora Version 2
+### Aurora Version 2
 
-### Docs
+# Docs
+
+## Importing the library
+```lua
+local Aurora = loadstring(game:HttpGet("https://raw.githubusercontent.com/ImNotACoderAi/Aurora-V2-Beta-Testing/main/Aurora-Main.lua",true))()
+```
 
 ## Creating a window
 ```lua
-local Window = library:Window({
+local Window = Aurora:Window({
     title = "Name of the library"
 })
 --[[
